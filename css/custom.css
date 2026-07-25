@@ -1,0 +1,49 @@
+/* besttechtrend static — mobile floating CTA.
+   Shown (via .is-visible) once section.content scrolls into view; hidden again
+   once the footer (page bottom) reaches the viewport. Desktop: hidden entirely. */
+.floating-cta {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 1000;
+  display: none; /* desktop */
+  background: #1e40af; color: #fff;
+  font-weight: 700; font-size: 1.15rem; text-decoration: none; text-align: center;
+  padding: 14px 16px; border-top: 4px solid #1e3a8a;
+  box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.18);
+  transform: translateY(110%); transition: transform 0.25s ease;
+}
+.floating-cta.is-visible { transform: translateY(0); }
+.floating-cta .bi { width: 1em; height: 1em; margin-left: 0.4em; vertical-align: -0.125em; }
+@media (max-width: 768px) {
+  .floating-cta { display: block; }
+}
+section.hero {
+    position: relative !important;
+}
+
+section.hero .overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    z-index: 1 !important;
+}
+
+section.hero .hero-body {
+    position: relative !important;
+    z-index: 2 !important;
+}
+/* 桌面端基础留白 */
+.hero-body {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* 移动端加大留白,视觉呼吸感更强 */
+@media screen and (max-width: 768px) {
+    .hero-body {
+        padding-top: 3.5rem !important;
+        padding-bottom: 3.5rem !important;
+    }
+    
+    .hero .title {
+        margin-bottom: 1rem !important;
+    }
+}
