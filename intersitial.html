@@ -1,0 +1,4757 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Power Leaf Blower</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  <meta name="description" content="The mini blower that blows like a beast!" />
+  <meta property="og:title" content="Power Leaf Blower" />
+  <meta property="og:description" content="The mini blower that blows like a beast!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://offer.woodrangertools.com/leafblower/images/int/s8-prod.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Power Leaf Blower" />
+  <meta name="twitter:description" content="The mini blower that blows like a beast!" />
+  <meta name="twitter:image" content="https://offer.woodrangertools.com/leafblower/images/int/s8-prod.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="HandheldFriendly" content="true" />
+  <link href="https://offer.woodrangertools.com/leafblower/images/favicon-red%20(1).png" rel="shortcut icon" type="image/x-icon" />
+
+  <!-- MaxConv Tracking Script Base Code-->
+  <script>!function(w,d,o,n,c){w[o]=w[o]||function(){(w[o].q=w[o].q||[]).push(arguments)};var s=d.createElement(n),t=d.getElementsByTagName(n)[0];s.async=!0;s.defer=!0;s.src="//track.healthdeepinsight.com/t/t.js";t.parentNode.insertBefore(s,t);}(window,document,"maxconv","script");</script>
+  <noscript><link rel="stylesheet" href="//track.healthdeepinsight.com/t/t.css?mc_ns=1" /></noscript>
+  <!-- End MaxConv Tracking Script Base Code-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow:wght@400;700;800&family=Outfit:wght@700&family=Roboto:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- 品牌名修正:A/B 工具会把 "Wood Ranger" 写回旧品牌名,此 observer 实时替换为 WOODRANGER® -->
+  <script>
+(function(){
+  var RX=/\b(Wood[\s ]+Ranger|WOOD[\s ]+RANGER)(s\b)?/g;
+  function fix(node){
+    var t=node.nodeValue;RX.lastIndex=0;
+    if(!RX.test(t))return;RX.lastIndex=0;
+    var frag=document.createDocumentFragment(),last=0,m;
+    while((m=RX.exec(t))){
+      frag.appendChild(document.createTextNode(t.slice(last,m.index)+"WOODRANGER"));
+      var s=document.createElement("sup");s.textContent="®";frag.appendChild(s);
+      if(m[2])frag.appendChild(document.createTextNode("s"));
+      last=m.index+m[0].length;
+    }
+    frag.appendChild(document.createTextNode(t.slice(last)));
+    node.parentNode&&node.parentNode.replaceChild(frag,node);
+  }
+  function walk(root){
+    if(!root)return;
+    if(root.nodeType===3){fix(root);return}
+    if(root.nodeType!==1)return;
+    var tag=root.nodeName;
+    if(tag==="SCRIPT"||tag==="STYLE"||tag==="TEXTAREA")return;
+    var w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null),nodes=[];
+    while(w.nextNode()){
+      var p=w.currentNode.parentNode&&w.currentNode.parentNode.nodeName;
+      if(p!=="SCRIPT"&&p!=="STYLE"&&p!=="TEXTAREA")nodes.push(w.currentNode);
+    }
+    for(var i=0;i<nodes.length;i++)fix(nodes[i]);
+  }
+  new MutationObserver(function(list){
+    for(var i=0;i<list.length;i++){
+      var mu=list[i];
+      if(mu.type==="characterData"){fix(mu.target);continue}
+      for(var j=0;j<mu.addedNodes.length;j++)walk(mu.addedNodes[j]);
+    }
+  }).observe(document.documentElement,{childList:true,subtree:true,characterData:true});
+  if(document.readyState!=="loading")walk(document.body);
+  else document.addEventListener("DOMContentLoaded",function(){walk(document.body)});
+})();
+  </script>
+
+  <style>
+/* ==========================================================================
+ * 1/3 reset.css — 基础重置(原站 css/landing-cvt/reset.css)
+ * ========================================================================== */
+/*
+    CSS Reset - A combination of Lazzzer00 and Josh's custom resets
+    https://github.com/Lazzzer00/Best-CSS-Reset-2024/blob/main/css_reset.css
+    https://www.joshwcomeau.com/css/custom-css-reset
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Default margins and paddings to 0 */
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    line-height: 1.5; /* WCAG criteria states that line-height should be at least 1.5: improve readability */
+    -webkit-font-smoothing: antialiased; /* Fonts anti-aliasing for WebKit-based browsers */
+    font-smooth: antialiased; /* Fonts anti-aliasing for non-WebKit-based browsers */
+}
+
+body, html {
+    height: 100%; /* Make the body element full screen */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+ul[role='list'], ol[role='list'] {
+    list-style: none; /* Turn off list decoration for semantic lists */
+}
+
+html:focus-within {
+    scroll-behavior: smooth; /* Make the scrolling inside of any scrollable element smooth */
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto; /* Improve link underline appearance */
+}
+
+img, picture, svg, video, canvas {
+    max-width: 100%; /* Make media elements responsive */
+    height: auto;
+    vertical-align: middle; /* Improve text alignment next to inline images */
+    font-style: italic; /* Style alt text for images that don't load */
+    background-repeat: no-repeat; /* Background repeat and size for loading placeholder images */
+    background-size: cover;
+}
+
+input, button, textarea, select {
+    font: inherit; /* Inherit font styles for consistency */
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word; /* Allow long words to break across multiple lines */
+}
+
+/* Disable certain styles for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+        transition: none;
+    }
+}
+
+/* ==========================================================================
+ * 2/3 index-v9.css — 页面主样式(原站 css/landing-cvt/index-v9.css,图片改绝对链接)
+ * ========================================================================== */
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-sarabun: 'Sarabun', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-barlow: 'Barlow', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --font-arial: 'Arial', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: auto;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-barlow);
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+
+h1 span {
+  color: #db011c;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 50px;
+}
+
+h3 {
+  font-family: var(--font-inter);
+  font-size: 23px;
+  line-height: 23px;
+}
+
+h4 {
+  font-size: 26px;
+  line-height: 52px;
+}
+
+h5 {
+  font-family: var(--font-barlow);
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 52px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+video {
+  border: 0;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  background-color: #ffdc32;
+  border: 1px solid #d4b000;
+  font-family: var(--font-roboto);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  padding: 9px 10px;
+  position: relative;
+  border-radius: 8px;
+  transition: background-color 0.15s ease-out;
+  will-change: transform;
+}
+
+.button:hover {
+  background-color: #f0cc36;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  animation: pulseInner 2.2s ease-out infinite;
+  will-change: box-shadow;
+}
+
+@keyframes pulseInner {
+  from {
+    box-shadow: 0 0 0 0 #dfbe1b;
+  }
+  80%,
+  100% {
+    box-shadow: 0 0 0 12px rgba(204, 40, 40, 0);
+  }
+}
+
+.cta-wrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-wrapper .button {
+  min-width: 290px;
+}
+
+.ships-from-ohio {
+  color: #000;
+  text-align: center;
+  font-family: var(--font-arial);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.ships-from-ohio.with_flag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.ships-from-ohio.with_flag img{
+  margin-right: 6px;
+}
+
+.cta-info {
+  font-family: var(--font-barlow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 13px;
+  width: 100%;
+  gap: 5px;
+  margin-top: 9.25px;
+}
+
+.cta-ship {
+  padding-left: 17px;
+  position: relative;
+}
+
+.cta-ship:before,
+.cta-ship:after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cta-ship:before {
+  background-color: #adf4a1;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  margin-top: -6px;
+  left: -3px;
+  animation: ctaShipPulse 1.65s cubic-bezier(0.4, -0.15, 0.1, 0.8) forwards infinite;
+  will-change: transform, opacity;
+}
+
+.cta-ship:after {
+  width: 6px;
+  height: 6px;
+  top: 50%;
+  margin-top: -3px;
+  left: 0;
+  background-color: #95df89;
+}
+
+@keyframes ctaShipPulse {
+  0% {
+    transform: scale(0.45);
+  }
+  85% {
+    transform: scale(1.65);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.75);
+  }
+}
+
+.cta-stock span {
+  color: #d93c25;
+  padding-left: 52px;
+  margin-left: 4px;
+  position: relative;
+  font-family: var(--font-inter);
+}
+
+.cta-stock span:before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: #d93c25;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  box-shadow:
+    10px 0 0 0 #d9d9d9,
+    20px 0 0 0 #d9d9d9,
+    30px 0 0 0 #d9d9d9,
+    40px 0 0 0 #d9d9d9;
+}
+
+main {
+  max-width: 1158px;
+  margin: 34.51px auto 402px auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1186px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-title span {
+  color: #1bba85;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.section-title p {
+  margin: 10px auto 0 auto;
+  max-width: 630px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header {
+  font-family: var(--font-roboto);
+  background-color: #fff;
+  padding: 12px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.17);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header nav {
+  gap: 20px;
+}
+
+.menu {
+  font-family: var(--font-roboto);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu a {
+  display: block;
+  padding: 14px 20px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a:before {
+  content: '';
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  width: calc(100% - 32px);
+  height: 3px;
+  background-color: #ffdc32;
+  transition: 0.12s;
+  transform: scale(1, 5.5);
+  transform-origin: bottom;
+  opacity: 0;
+  transition: 0.14s 0.1s;
+}
+
+.menu li.active a:before {
+  transform: none;
+  transition: 0.195s ease-out;
+  opacity: 1;
+  transform-origin: top;
+}
+
+.order-now {
+  gap: 15px;
+}
+
+.menu-toggle {
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: none;
+}
+
+.hero-wrapper {
+  align-items: flex-start;
+  gap: 44px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+
+.banner-asset {
+  width: 50%;
+  position: relative;
+}
+
+.banner {
+  min-height: 581px;
+}
+
+.banner-labels {
+  position: absolute;
+  left: 83%;
+  top: 35px;
+  z-index: 2;
+}
+
+.hero .banner-asset {
+  justify-content: flex-end;
+}
+
+.hero-image {
+  width: 100%;
+  height: 580px;
+  position: relative;
+}
+
+.hero-poster {
+  display: block;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  display: block;
+}
+
+.hero-image .hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  z-index: 1;
+}
+
+.hero-slider-wrapper {
+  position: relative;
+  width: 100%;
+  flex: 1;
+}
+
+.hero-main-slider {
+  overflow: hidden;
+}
+
+.hero-main-slider:not(.tns-slider) > *:not(:first-child) {
+  display: none;
+}
+
+.hero-main-slider img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-slider-prev,
+.hero-slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  visibility: hidden;
+  background: #ffdc32;
+  border: none;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 26px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 0;
+}
+
+.hero-slider-prev {
+  left: 10px;
+}
+.hero-slider-next {
+  right: 10px;
+}
+
+.hero-thumb-nav {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0 0;
+}
+
+@media screen and (max-width: 640px) {
+  .hero-thumb-nav {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+.hero-thumb-nav button {
+  border: 2px solid #e0e0e0;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  flex: 1;
+  /* aspect-ratio: 1 / 1; */
+  min-width: 0;
+  transition: border-color 0.2s;
+}
+
+.hero-thumb-nav button.tns-nav-active {
+  border-color: #e03131;
+}
+
+.hero-thumb-nav button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.hero video,
+.sub-hero video {
+  height: 580px;
+  object-fit: cover;
+  object-position: right;
+  width: 100%;
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.banner-rating {
+  gap: 6px;
+  font-size: 13px;
+  font-family: var(--font-roboto);
+  line-height: 15px;
+}
+
+.banner-content > p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.banner-content .benefits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 11.5px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.banner-content .benefits-container .benefits-item {
+  display: flex;
+  gap: 11.5px;
+  align-items: flex-start;
+}
+
+.banner-content .benefits-container .benefits-texts {
+  text-align: left;
+  line-height: 23px;
+}
+
+.banner ul {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  padding: 8px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.banner ul li {
+  display: flex;
+  gap: 9px;
+  text-align: left;
+  align-items: flex-end;
+}
+
+/* .banner ul li::before {
+  content: "";
+  display: inline-block;
+  height: 19px;
+  width: 19px;
+  background-image: url(https://offer.woodrangertools.com/leafblower/images/int2/list-checkmark-icon.webp);
+  margin-top: 2px;
+} */
+
+.banner ul li span {
+  flex: 1;
+}
+
+.hero .cta-wrapper {
+  margin: 0 0 33px 0;
+}
+
+.hero .cta-wrapper .button {
+  width: 290px;
+}
+
+.hero-wrapper h1 {
+  max-width: 600px;
+}
+
+.hero-review {
+  gap: 16px;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero-review-avatar {
+  border-radius: 50%;
+}
+
+.hero-review-text p {
+  margin-top: 2px;
+  max-width: 373px;
+}
+
+.brands {
+  height: 74px;
+  width: 100%;
+}
+
+.brands-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.brands-wrapper:before,
+.brands-wrapper:after {
+  content: '';
+  width: 210px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.brands-wrapper:before {
+  left: 0;
+  /* background-image: linear-gradient(to left, transparent, black); */
+}
+
+.brands-wrapper:after {
+  right: 0;
+  /* background-image: linear-gradient(to left, black, transparent); */
+}
+
+.brands-trails {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: scroll 92s linear infinite;
+  will-change: transform;
+}
+
+.brands-trail {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+  flex-shrink: 0;
+  padding-right: 58px;
+}
+
+.brands-trail img {
+  display: block;
+  height: auto;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.summary {
+  padding: 50px 50px;
+  background-color: #202528;
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.summary-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.summary-left-title {
+  font-family: 'Barlow', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 43px;
+}
+
+.summary-left-title-red {
+  color: #db011c;
+}
+
+.summary-left-text {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 640px) {
+  .summary-left {
+    text-align: center;
+  }
+
+  .summary-left-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+    text-transform: capitalize;
+  }
+
+  .summary-left-text {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .button::after,
+  .cta-ship:before,
+  .brands-trails {
+    animation: none !important;
+  }
+}
+
+.features {
+  padding: 35px 0 44px 0;
+}
+
+.features-items {
+  gap: 45px;
+  margin-bottom: 44px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 42px;
+  position: relative;
+}
+
+.feature h3 {
+  margin-bottom: 12px;
+}
+
+.feature.feature-gray {
+  background-color: #202528;
+  color: #fff;
+}
+
+.feature.feature-gray p,
+.feature.feature-gray .feature-block {
+  color: #fff;
+}
+
+/* @media screen and (max-width: 640px) {
+  .feature.feature-gray p,
+  .feature.feature-gray .feature-block {
+    color: #000;
+  }
+} */
+
+.feature-content {
+  max-width: 500px;
+}
+
+.feature-image,
+.feature-image picture,
+.feature-image img {
+  height: 100%;
+  width: auto;
+}
+
+.feature.feature-gray .feature-content {
+  padding-left: 42px;
+  max-width: 540px;
+}
+
+.feature-content p {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.feature-block {
+  border-radius: 8px;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 23px;
+}
+
+.feature-5-stars {
+  margin-top: 29px;
+}
+
+.attributes {
+  margin: 0 0 50px 0;
+}
+
+.attributes .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attributes-items-wrapper {
+  max-width: 1920px;
+  margin: 0 auto 0;
+  overflow: hidden;
+}
+
+.attributes-items-wrapper .tns-outer,
+.attributes-items-wrapper .tns-ovh,
+.attributes-items-wrapper [id$='-iw'] {
+  height: 100%;
+}
+
+.attributes-items {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.attribute-wrapper {
+  padding: 0 6px;
+}
+
+.attribute {
+  background-color: #f4f4f4;
+  /* box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.04); */
+  border-radius: 8px;
+  height: 100%;
+}
+
+.attribute img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+.attribute .attribute-texts {
+  padding: 24px 12px 24px 24px;
+}
+
+.attribute p {
+  font-family: var(--font-arial);
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.banner2 {
+  color: #ffffff;
+}
+
+.banner2-wrapper {
+  overflow: hidden;
+  background-color: #202528;
+  margin-bottom: 50px;
+}
+
+.banner2-content-inner {
+  max-width: 448px;
+  padding: 22px;
+}
+
+.banner2-content h3 {
+  font-family: var(--font-barlow);
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.banner2-wrapper div {
+  flex: 1;
+}
+
+.banner2-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.health-block {
+  position: relative;
+  z-index: 0;
+}
+
+.health-block::before {
+  content: '';
+  position: absolute;
+  inset: 1000px 0px 480px 0px;
+  background-color: #f8f8f8;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.comparison {
+  padding: 40px 0 20px 0;
+}
+
+.comparison .cta-wrapper {
+  margin-top: 30px;
+}
+
+.precision {
+  padding: 20px 0;
+}
+
+.precision .section-title {
+  margin-bottom: 24px;
+}
+
+.precision-wrapper {
+  max-width: 964px;
+  margin: 0 auto;
+  padding: 30px 20px 30px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.precision-content {
+  justify-content: space-evenly;
+}
+
+.precision-text {
+  flex: 1;
+  max-width: 440px;
+}
+
+.precision-text ul {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 5px 0 5px 30px;
+}
+
+.precision-text li {
+  list-style: disc;
+}
+
+.precision-text li::marker {
+  font-size: 13px;
+}
+
+.colors {
+  padding-bottom: 50px;
+}
+
+.colors h2 {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.colors .colors-wrapper {
+  flex-wrap: wrap;
+}
+
+.colors .color-option span {
+  font-family: var(--font-sarabun);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.steps {
+  padding: 10px 0 31px 0;
+}
+
+.steps-items {
+  gap: 64px;
+  margin-bottom: 51px;
+}
+
+.step {
+  width: 278px;
+}
+
+.step-video {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.step-text {
+  margin-top: 12px;
+}
+
+.step-text h4 {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.reviews {
+  padding: 20px 0 64px 0;
+}
+
+.reviews .container {
+  max-width: 1190px;
+}
+
+.reviews .section-title span {
+  color: #04b67b;
+}
+
+.reviews-header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 41px;
+  gap: 20px;
+}
+
+.review-stat {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 4px 0;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.review-stat span {
+  width: 165px;
+}
+
+.reviews-overall {
+  text-align: center;
+}
+
+.reviews-overall h2 {
+  font-family: var(--font-inter);
+  font-size: 70px;
+  line-height: 1.2;
+}
+
+.reviews-overall p {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.reviews-items {
+  column-count: 4;
+  column-gap: 24px;
+  row-gap: 24px;
+  column-fill: balance;
+  orphans: 1;
+  widows: 1;
+}
+
+.review {
+  border: 1px solid #d3d3d3;
+  max-width: 272px;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  border-radius: 6px;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.review-image img {
+  object-fit: cover;
+  height: 260px;
+}
+
+.review-content {
+  padding: 20px 15px 20px 15px;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.review-author img {
+  border-radius: 50%;
+}
+
+.review-verified {
+  display: flex;
+  align-items: center;
+  color: #3ab890;
+  font-weight: 500;
+  gap: 6px;
+}
+
+/* .review-verified:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url(https://offer.woodrangertools.com/leafblower/images/int2/verified-icon.svg);
+} */
+
+.review-posted {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 15px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.review-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.review-title {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.sub-hero.banner {
+  background-color: #f9f9f9;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.sub-hero .hero-wrapper {
+  gap: 48px;
+  padding: 40px 0 0 0;
+}
+
+.sub-hero .banner-asset {
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.sub-hero .banner-asset img {
+  object-fit: cover;
+  object-position: right center;
+}
+
+.sub-hero .banner-content {
+  flex-shrink: 0;
+  flex: 1;
+}
+
+.sub-hero-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.sub-hero-benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.banner ul.sub-hero-benefits li::before {
+  content: none;
+}
+
+.sub-hero-benefits svg {
+  width: 19px;
+  height: 19px;
+}
+
+.sub-hero .hero-review {
+  margin-top: 28px;
+}
+
+.faq {
+  padding: 32px 0;
+}
+
+.faq .section-title span {
+  color: #3ab890;
+}
+
+.faq-items {
+  padding: 20px 0 42px;
+  max-width: 922px;
+  margin: 0 auto;
+  gap: 23px;
+}
+
+.faq-item {
+  padding: 25px 90px 25px 27px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-item.open {
+  padding: 25px 90px 25px 27px;
+  color: #221c44;
+}
+
+.faq-question {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.faq-answer-wrapper {
+  height: 0;
+  transition: 0.18s ease-out;
+  overflow: hidden;
+  max-width: 740px;
+}
+
+.faq-item.open .faq-answer-wrapper {
+  height: auto;
+}
+
+.faq-answer {
+  transform: translate(0, -4px);
+  opacity: 0;
+  transition: 0.25s 0.05s ease-in-out;
+}
+
+.faq-item.open .faq-answer {
+  opacity: 1;
+  transform: translate(0);
+}
+
+.faq-opener {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #000000;
+  position: absolute;
+  border-radius: 50%;
+  top: 26px;
+  right: 29px;
+}
+
+.faq-opener:before,
+.faq-opener:after {
+  content: '';
+  width: 16px;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  border-radius: 2px;
+}
+
+.faq-opener:after {
+  transform: rotate(90deg);
+  opacity: 1;
+  transition: 0.15s;
+}
+
+.faq-item.open .faq-opener:after {
+  transition: 0.11s ease-in;
+  opacity: 0;
+}
+
+.fixed-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  justify-content: center;
+  padding: 14px 15px 10px 15px;
+  transition: 0.12s;
+}
+
+.fixed-cta.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(0, 4px);
+}
+
+.fixed-cta-dt {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
+  z-index: 4;
+  transition: 0.12s;
+}
+
+.fixed-cta-dt.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(0, 4px);
+}
+
+.fixed-cta-dt-inner {
+  justify-content: space-between;
+  gap: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fixed-cta-dt-img {
+  height: 76px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.fixed-cta-dt-text {
+  flex: 1;
+  gap: 4px;
+}
+
+.fixed-cta-dt-rating {
+  gap: 8px;
+  font-size: 13px;
+}
+
+.fixed-cta-dt-text strong {
+  font-family: var(--font-inter);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+footer {
+  color: #808080;
+  padding: 45px 0 50px;
+  font-size: 16px;
+  line-height: 21px;
+  border-top: 1px solid #d2d2d2;
+
+  color: #000;
+  text-align: center;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+footer li {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin: 30px auto 0 auto;
+  max-width: 923px;
+}
+
+@media screen and (max-width: 768px) {
+  footer p {
+    margin-top: 10px;
+  }
+}
+
+footer ul li:before {
+  content: '|';
+  margin: 0 6px;
+}
+
+footer ul li:first-child:before {
+  content: none;
+}
+
+footer ul a {
+  transition: 0.22s;
+}
+
+footer ul a:hover {
+  color: #c3c3c3;
+}
+
+footer p.disclaimer {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  footer p.disclaimer {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .banner-labels {
+    left: 88%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .feature {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .feature-content {
+    order: 1;
+  }
+
+  .features-items {
+    gap: 18px;
+  }
+
+  .feature h3,
+  .feature-image {
+    line-height: 23px;
+    margin-bottom: 18px;
+  }
+
+  .feature-image,
+  .feature-image picture,
+  .feature-image img {
+    height: auto;
+    width: 100%;
+  }
+
+  .hero .banner-content {
+    padding: 16px 0px 32px 0px;
+    align-items: center;
+  }
+
+  .sub-hero .banner-content {
+    padding-left: 25px;
+  }
+
+  .reviews-items {
+    column-count: 3;
+    margin: 0 auto;
+    max-width: 860px;
+  }
+
+  .review:last-child {
+    display: none;
+  }
+
+  .precision-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .steps-items {
+    gap: 20px;
+  }
+
+  .reviews-header {
+    flex-direction: column;
+  }
+
+  .reviews-header {
+    gap: 10px;
+  }
+
+  .reviews-photos {
+    margin-top: 10px;
+  }
+
+  .review-stat span {
+    width: auto;
+    flex: 1;
+    font-size: 14px;
+  }
+
+  .review-image img {
+    height: 348px;
+  }
+}
+
+/* ── Tablet (769 – 1024 px) ─────────────────────────────── */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  /* Hero */
+  .hero-wrapper {
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .banner-asset {
+    width: 44%;
+  }
+
+  .hero video,
+  .sub-hero video {
+    height: 440px;
+  }
+
+  .sub-hero .banner-asset {
+    min-height: 440px;
+  }
+
+  .sub-hero .banner-asset > img {
+    height: 440px;
+  }
+
+  .banner-content > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Summary */
+  .summary {
+    padding: 30px;
+    gap: 24px;
+  }
+
+  /* Features */
+  .feature-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* Comparison */
+
+  .comparison-col-woodranger-ul,
+  .comparison-col-traditional-ul {
+    font-size: 16px;
+  }
+
+  /* Banner2 */
+  .banner2-content h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  /* Specs */
+  .specs-right-list li {
+    font-size: 16px;
+  }
+
+  /* Reviews */
+  .reviews-items {
+    column-count: 4;
+    /* max-width: 620px; */
+  }
+
+  .review-image img {
+    height: 260px;
+  }
+
+  /* Fixed CTA desktop bar */
+  .fixed-cta-dt-inner {
+    gap: 14px;
+  }
+
+  .fixed-cta-dt-text strong {
+    font-size: 17px;
+  }
+
+  main {
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hide-dt {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hide-mb {
+    display: none;
+  }
+
+  .show-mb {
+    display: block !important;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  h3 {
+    font-size: 23px;
+    line-height: 42px;
+  }
+
+  .section-title h2 {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    width: 100%;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    border: 1px solid #d6d6d6;
+  }
+
+  .menu-toggle {
+    display: block;
+    width: 37px;
+    height: 30px;
+    position: relative;
+  }
+
+  .menu-toggle span {
+    width: 27px;
+    height: 3px;
+    background-color: #000000;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    border-radius: 2px;
+    transition: 0.1415s;
+  }
+
+  .menu-toggle span:nth-child(2) {
+    top: 14px;
+  }
+
+  .menu-toggle span:nth-child(3) {
+    top: 24px;
+  }
+
+  .menu-toggle.open ~ .menu {
+    opacity: 1;
+    transition: 0.12s;
+    pointer-events: all;
+  }
+
+  .menu li {
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  .menu li:last-child {
+    border-bottom: 0;
+  }
+
+  .menu a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 8px);
+  }
+
+  .menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -7px);
+  }
+
+  .menu li.active a:before {
+    content: none;
+  }
+
+  .menu li.active {
+    background-color: #ffdc32;
+  }
+
+  .banner h1 {
+    text-align: center;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .banner-asset {
+    width: 100%;
+  }
+
+  .hero .banner-asset {
+    min-height: unset;
+    position: relative;
+    left: 0;
+    width: 100%;
+  }
+
+  .banner-labels {
+    left: unset;
+    top: 30px;
+    right: 75%;
+    width: 72px;
+  }
+
+  .hero-image {
+    height: 400px;
+  }
+
+  .hero-poster img {
+    object-position: center;
+  }
+
+  .hero-image .hero-video {
+    object-position: center;
+  }
+
+  .hero video,
+  .sub-hero video {
+    min-height: auto;
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+  }
+
+  /* .hero-thumb-nav button {
+    aspect-ratio: 1 / 1;
+  } */
+
+  .hero .banner-content {
+    text-align: center;
+    padding: 16px 16px 0 16px;
+    line-height: 23px;
+  }
+
+  .hero-wrapper h1 {
+    max-width: 400px;
+  }
+
+  .hero .cta-wrapper {
+    margin: 16px auto 20px auto;
+  }
+
+  .hero-review {
+    text-align: left;
+    gap: 12px;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 16px;
+  }
+
+  .brands {
+    left: 0;
+    width: 100%;
+    position: relative;
+  }
+
+  .brands-trails {
+    animation: scroll 45s linear infinite;
+  }
+
+  .summary {
+    padding: 20px 0 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .feature h3 br {
+    display: none;
+  }
+
+  .feature-block {
+    padding: 16px 0;
+  }
+
+  .feature.feature-gray {
+    color: #fff;
+    margin: 0 -15px;
+  }
+
+  .feature.feature-gray .feature-content {
+    padding: 0 16px;
+  }
+
+  .attributes {
+    overflow: hidden;
+  }
+
+  .attributes .section-title {
+    margin-bottom: 10px;
+  }
+
+  .attribute-wrapper {
+    max-width: unset;
+  }
+
+  .attributes-items-wrapper {
+    width: 100%;
+  }
+
+  .attributes .tns-nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 29px;
+  }
+
+  .attributes .tns-nav button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+  }
+
+  .attributes .tns-nav button.tns-nav-active {
+    background-color: #666;
+  }
+
+  .banner2-wrapper {
+    border-radius: 0;
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px);
+  }
+
+  .banner2-content-inner {
+    width: 100%;
+    max-width: unset;
+    padding: 28px 16px 37px 27px;
+    text-align: start;
+  }
+
+  .banner2-content h3 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-family: var(--font-barlow);
+    text-transform: capitalize;
+  }
+
+  .banner2-image img {
+    width: 100%;
+  }
+
+  .comparison {
+    padding: 30px 0;
+  }
+
+  .health-block::before {
+    inset: 940px 0px 480px 0px;
+  }
+
+  .precision {
+    padding: 0;
+  }
+
+  .precision .container {
+    padding: 0;
+  }
+
+  .colors .colors-wrapper {
+    gap: 26px 20px;
+  }
+
+  .colors .color-option img {
+    width: 153px !important;
+    height: 153px !important;
+  }
+
+  .colors .color-option span {
+    font-size: 20px;
+  }
+
+  .steps {
+    overflow: hidden;
+    padding: 15px 0 31px 0;
+  }
+
+  .reviews {
+    padding: 20px 0 40px 0;
+  }
+
+  .reviews-items {
+    column-count: 2;
+    max-width: 568px;
+  }
+
+  .sub-hero .hero-wrapper {
+    gap: 0;
+  }
+
+  .sub-hero .banner-asset {
+    min-height: unset;
+  }
+
+  .sub-hero .banner-asset {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .sub-hero .banner-asset > img {
+    object-position: 80% center;
+    height: 400px;
+  }
+
+  .sub-hero .banner-content {
+    padding: 20px 15px 30px 15px;
+  }
+
+  .sub-hero-benefits {
+    line-height: 24px;
+  }
+
+  .sub-hero-benefits svg {
+    margin-top: 2px;
+  }
+
+  .faq-item {
+    padding: 15px 60px 15px 12px;
+  }
+
+  .faq-question {
+    padding-bottom: 10px;
+    line-height: 22px;
+  }
+
+  .faq-item.open {
+    padding: 15px 60px 18px 12px;
+  }
+
+  .faq-opener {
+    top: 14px;
+    right: 14px;
+  }
+
+  main {
+    margin-top: 16px;
+    margin-bottom: 270px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .steps-items-wrapper {
+    position: relative;
+    left: -100px;
+    width: calc(100% + 200px);
+  }
+
+  .step-video video {
+    width: 100%;
+  }
+
+  .banner ul {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cta-wrapper,
+  .cta-wrapper .button,
+  .hero .cta-wrapper .button {
+    width: 100%;
+    max-width: 343px;
+  }
+
+  .banner-content > p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: var(--font-inter);
+  }
+
+  .hero-review-text p {
+    max-width: 281px;
+  }
+
+  .banner2-wrapper {
+    flex-direction: column;
+  }
+
+  .banner2-content-inner p {
+    max-width: 331px;
+    margin-top: 24px;
+  }
+
+  .banner2-image {
+    max-width: 312px;
+    margin: 0 auto;
+  }
+
+  .health-block::before {
+    inset: 990px 0px 890px 0px;
+  }
+
+  .precision-wrapper {
+    padding: 20px 15px;
+  }
+
+  .precision-image {
+    padding: 0 8px;
+  }
+
+  .precision-text {
+    margin-top: 20px;
+  }
+
+  .precision h4 {
+    font-size: 20px;
+  }
+
+  .colors {
+    padding-bottom: 35px;
+  }
+
+  .review-stat {
+    padding-right: 0;
+    gap: 16px;
+  }
+
+  .reviews-items {
+    column-count: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .review {
+    margin-bottom: 0;
+    max-width: unset;
+  }
+
+  .review:nth-child(1) {
+    order: 0;
+  }
+
+  .review:nth-child(3) {
+    order: 1;
+  }
+
+  .review:nth-child(5) {
+    order: 2;
+  }
+
+  .review:nth-child(6) {
+    order: 7;
+  }
+
+  .review:nth-child(7) {
+    order: 4;
+  }
+
+  .review:nth-child(2) {
+    order: 5;
+  }
+
+  .review:nth-child(4) {
+    order: 6;
+  }
+
+  .review:nth-child(8) {
+    order: 8;
+  }
+
+  .review-image img {
+    height: auto;
+    width: 100%;
+    object-position: center 20%;
+  }
+
+  .banner ul li {
+    align-items: flex-start;
+  }
+
+  .faq {
+    padding-top: 39px;
+  }
+
+  .faq-items {
+    padding-bottom: 34px;
+  }
+
+  .faq-item:first-of-type .faq-question {
+    padding-right: 1px;
+  }
+
+  footer {
+    padding-top: 29.52px;
+    padding-bottom: 9.23px;
+  }
+
+  footer .container {
+    padding: 0 12px;
+  }
+
+  footer ul {
+    margin-bottom: 26px;
+  }
+}
+
+.show-desktop {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+}
+
+.comparison-body {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.comparison-col-woodranger-title {
+  color: #000;
+  font-family: var(--font-arial);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.comparison-col-woodranger-ul {
+  color: #000;
+  font-family: var(--font-arial);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.comparison-col-traditional-title {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.comparison-col-traditional-ul {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.comparison-col-woodranger-title,
+.comparison-col-traditional-title {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.comparison-col-woodranger-ul li,
+.comparison-col-traditional-ul li {
+  border-bottom: 1px solid rgba(230, 230, 230, 0.75);
+  padding: 10px 0;
+}
+
+.comparison-col-woodranger-ul li:last-child,
+.comparison-col-traditional-ul li:last-child {
+  border-bottom: none;
+}
+
+.vs-container {
+  padding: 0 81.5px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  align-items: center;
+}
+
+.vs-container img {
+  width: 42px;
+  height: 42px;
+}
+
+.vs-divider {
+  margin-top: 13.37px;
+  flex: 1;
+  background-color: #000;
+  width: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  .comparison-body {
+    flex-direction: column;
+  }
+
+  .vs-container {
+    margin: 0;
+    padding: 32px 0;
+  }
+
+  .vs-container img {
+    width: 53px;
+    height: 53px;
+  }
+}
+
+#specs {
+  background-color: #f9f9f9;
+  padding: 27px 0;
+  margin-top: 38px;
+  margin-bottom: 100px;
+}
+
+.specs {
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.specs-body {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.specs-divider {
+  width: 1px;
+  background-color: #ececec;
+}
+
+.specs-left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.specs-left-title,
+.specs-right-title {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.specs-left-img,
+.specs-right-list {
+  margin-top: 17px;
+}
+
+.specs-right-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.75);
+
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.specs-left-text {
+  color: #000;
+  text-align: center;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 14px;
+}
+
+.specs-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.specs-banner-description {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  .specs-left-text {
+    text-align: left;
+    margin: auto;
+  }
+}
+
+.specs-right-list li:nth-last-child(-n + 2) {
+  border-bottom: none !important;
+}
+
+.specs-right-list li:last-child {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  justify-content: flex-end !important;
+}
+
+@media screen and (max-width: 640px) {
+  .specs-body {
+    flex-direction: column;
+  }
+
+  .specs-left-container {
+    flex-direction: row;
+  }
+}
+
+.specs-banner {
+  background-color: #d8ff85;
+  padding: 28px;
+  display: flex;
+  gap: 18px;
+  margin: 42px auto 0;
+  width: fit-content;
+  margin-bottom: -100px;
+}
+
+.specs-banner-title {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+  .specs-banner-description {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .specs-banner-text {
+    gap: 14px;
+  }
+
+  .specs-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+  }
+}
+
+.as-seen-on {
+  color: #000;
+  text-align: center;
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 6px;
+}
+
+.faq .section-title {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+ * 3/3 tiny-slider.css — 滑块样式(原站 css/landing-cvt/tiny-slider.css)
+ * ========================================================================== */
+.tns-outer{padding:0 !important}.tns-outer [hidden]{display:none !important}.tns-outer [aria-controls],.tns-outer [data-action]{cursor:pointer}.tns-slider{-webkit-transition:all 0s;-moz-transition:all 0s;transition:all 0s}.tns-slider>.tns-item{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.tns-horizontal.tns-subpixel{white-space:nowrap}.tns-horizontal.tns-subpixel>.tns-item{display:inline-block;vertical-align:top;white-space:normal}.tns-horizontal.tns-no-subpixel:after{content:'';display:table;clear:both}.tns-horizontal.tns-no-subpixel>.tns-item{float:left}.tns-horizontal.tns-carousel.tns-no-subpixel>.tns-item{margin-right:-100%}.tns-no-calc{position:relative;left:0}.tns-gallery{position:relative;left:0;min-height:1px}.tns-gallery>.tns-item{position:absolute;left:-100%;-webkit-transition:transform 0s, opacity 0s;-moz-transition:transform 0s, opacity 0s;transition:transform 0s, opacity 0s}.tns-gallery>.tns-slide-active{position:relative;left:auto !important}.tns-gallery>.tns-moving{-webkit-transition:all 0.25s;-moz-transition:all 0.25s;transition:all 0.25s}.tns-autowidth{display:inline-block}.tns-lazy-img{-webkit-transition:opacity 0.6s;-moz-transition:opacity 0.6s;transition:opacity 0.6s;opacity:0.6}.tns-lazy-img.tns-complete{opacity:1}.tns-ah{-webkit-transition:height 0s;-moz-transition:height 0s;transition:height 0s}.tns-ovh{overflow:hidden}.tns-visually-hidden{position:absolute;left:-10000em}.tns-transparent{opacity:0;visibility:hidden}.tns-fadeIn{opacity:1;filter:alpha(opacity=100);z-index:0}.tns-normal,.tns-fadeOut{opacity:0;filter:alpha(opacity=0);z-index:-1}.tns-vpfix{white-space:nowrap}.tns-vpfix>div,.tns-vpfix>li{display:inline-block}.tns-t-subp2{margin:0 auto;width:310px;position:relative;height:10px;overflow:hidden}.tns-t-ct{width:2333.3333333%;width:-webkit-calc(100% * 70 / 3);width:-moz-calc(100% * 70 / 3);width:calc(100% * 70 / 3);position:absolute;right:0}.tns-t-ct:after{content:'';display:table;clear:both}.tns-t-ct>div{width:1.4285714%;width:-webkit-calc(100% / 70);width:-moz-calc(100% / 70);width:calc(100% / 70);height:10px;float:left}
+
+/*# sourceMappingURL=sourcemaps/tiny-slider.css.map */
+
+/* ==========================================================================
+ * Funnelish 宿主适配(非原站样式)
+ * ========================================================================== */
+body {
+  overflow-x: hidden; /* 原站 <body style="overflow-x:hidden"> — 模块无法写 body 属性,移到这里 */
+}
+
+/* 锚点跳转落点:header 为 sticky(约 78px),让原生 #hash 跳转(直接输 URL、
+ * 或页面 JS 被剥离时)也落在 header 下方,与脚本平滑滚动行为一致 */
+main > section[id] {
+  scroll-margin-top: 78px;
+}
+
+/* Funnelish 空页面占位容器(避免模块上下多出 100vh / 402px 空白)。
+ * 注意:原站 CSS 有 main { margin: 34.51px auto 402px } 这条规则,若宿主包裹
+ * 容器也用 <main>,空元素的 margin 折叠会把整页往下推 402px —— 这里一并归零。 */
+main.main-wrapper {
+  min-height: 0 !important;
+  margin: 0 !important;
+}
+
+  </style>
+</head>
+<body>
+
+    <promo-banner></promo-banner>
+
+    <header>
+      <div class="container">
+        <div class="header-content d-flex align-items-center">
+          <img
+            src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/logo-main.webp"
+            alt="Herz P1"
+            class="logo"
+            width="204"
+            height="21"
+          />
+          <nav class="d-flex">
+            <button class="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="menu d-flex">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#comparison">Comparison</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <div class="order-now d-flex align-items-center hide-mb">
+              <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now</a>
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/USA-flag.png" alt="US Flag" width="32" height="18" />
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero banner">
+        <div class="hero-wrapper d-flex">
+          <div class="banner-rating d-flex align-items-center hide-dt">
+            <!-- <span><b>Excellent</b></span> -->
+            <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png" width="81" height="15" alt="5 Stars" />
+            <span>27,517+ </span>
+            <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/check-green.png" width="15" height="15" alt="Check Mark" />
+            5-Star Reviews
+          </div>
+          <h1 class="hide-dt">
+            <span
+              >Your One Hand Quick<br />
+              Fix For:</span
+            >
+            Clearing Leaves, Dirt & Dust
+          </h1>
+          <div class="banner-asset d-flex">
+            <div class="hero-slider-wrapper">
+              <div id="hero-main-slider" class="hero-main-slider">
+                <div>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-1.webp"
+                    alt="Product"
+                    width="2121"
+                    height="1957"
+                    fetchpriority="high"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-2.webp"
+                    alt="Product"
+                    width="2121"
+                    height="1957"
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-3.webp"
+                    alt="Product"
+                    width="2121"
+                    height="1957"
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-4.webp"
+                    alt="Product"
+                    width="2121"
+                    height="1957"
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-5.webp"
+                    alt="Product"
+                    width="2121"
+                    height="1957"
+                    loading="lazy"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-6.webp"
+                    alt="Product"
+                    width="1061"
+                    height="979"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <button class="hero-slider-prev" aria-label="Previous">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="13"
+                  viewBox="0 0 7 13"
+                  fill="none"
+                >
+                  <path
+                    d="M5.67629 13L-3.85426e-07 6.5L5.67629 1.15722e-07L7 1.5171L2.64856 6.5L7 11.4829L5.67629 13Z"
+                    fill="black"
+                  />
+                </svg>
+              </button>
+              <button class="hero-slider-next" aria-label="Next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="7"
+                  height="13"
+                  viewBox="0 0 7 13"
+                  fill="none"
+                >
+                  <path
+                    d="M1.32371 13L7 6.5L1.32371 1.15722e-07L-1.32629e-07 1.5171L4.35144 6.5L-1.00387e-06 11.4829L1.32371 13Z"
+                    fill="black"
+                  />
+                </svg>
+              </button>
+              <div id="hero-thumb-nav" class="hero-thumb-nav">
+                <button type="button">
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-1.webp" alt="" />
+                </button>
+                <button type="button">
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-2.webp" alt="" />
+                </button>
+                <button type="button">
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-3.webp" alt="" />
+                </button>
+                <button type="button">
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-4.webp" alt="" />
+                </button>
+                <button type="button">
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-5.webp" alt="" />
+                </button>
+                <button type="button">
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/slider-img-6.webp" alt="" />
+                </button>
+              </div>
+            </div>
+            <!-- <div class="banner-labels">
+              <picture>
+                <source
+                  media="(max-width: 600px)"
+                  srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/banner-labels-mb.webp"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/banner-labels-dt.webp"
+                  alt="90 Days Guarantee"
+                  width="88"
+                  height="158"
+                />
+              </picture>
+            </div> -->
+          </div>
+          <div class="banner-content d-flex flex-col">
+            <div class="banner-rating d-flex align-items-center hide-mb">
+              <!-- <span><b>Excellent</b></span> -->
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png" alt="5 Stars" width="81" height="15" />
+              <span>27,517+ </span>
+              <img
+                src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/check-green.png"
+                width="15"
+                height="15"
+                alt="Check Mark"
+              />
+              5-Star Reviews
+            </div>
+            <h1 class="hide-mb">
+              <span
+                >Your One Hand Quick<br />
+                Fix For:</span
+              >
+              Clearing Leaves,<br />
+              Dirt & Dust
+            </h1>
+            <p
+              style="
+                border-bottom: 2px solid #000;
+                border-top: 2px solid #000;
+                padding-bottom: 8px;
+                padding-top: 8px;
+              "
+            >
+              <strong>Large power in a compact size.</strong> Built for patios, driveways,<br
+                class="show-desktop"
+              />
+              car windshields, and everything in between.
+            </p>
+            <div class="benefits-container">
+              <div class="benefits-item">
+                <div>
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/check-red.png" width="19" height="19" alt="" />
+                </div>
+                <div class="benefits-texts">
+                  <strong>Neighbor Friendly</strong><br />
+                  <span>Quiet enough for 7am tasks</span>
+                </div>
+              </div>
+              <div class="benefits-item">
+                <div>
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/check-red.png" width="19" height="19" alt="" />
+                </div>
+                <div class="benefits-texts">
+                  <strong>Ultra-Light & Cordless.</strong><br />
+                  <span>Just 2.1 lb for effortless, fatigue-free use</span>
+                </div>
+              </div>
+              <div class="benefits-item">
+                <div>
+                  <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/check-red.png" width="19" height="19" alt="" />
+                </div>
+                <div class="benefits-texts">
+                  <strong>Long-Lasting Battery.</strong><br />
+                  <span>Tackle any project on a single charge</span>
+                </div>
+              </div>
+            </div>
+            <div class="cta-wrapper">
+              <span class="ships-from-ohio with_flag"
+                ><img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/USA-flag.png" alt="US Flag" width="32" height="18" />
+                Ships From Ohio, USA</span
+              >
+              <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now & Save 50% Off</a>
+              <div class="cta-info">
+                <div class="cta-ship">Ship by <span class="cta-date"></span></div>
+                |
+                <div class="cta-stock">Stock Levels <span>LOW</span></div>
+              </div>
+            </div>
+            <div class="hero-review d-flex">
+              <img
+                class="hero-review-avatar"
+                src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/hero-review-top.webp"
+                alt="Wendy C. Avatar"
+                width="49"
+                height="49"
+              />
+              <div class="hero-review-text">
+                <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png" width="81" height="15" alt="5 Stars" />
+                <p>
+                  Don't let the size fool you, this thing is a powerhouse. Even better I don’t get
+                  complaints from my neighbours anymore. Easily the best blower I’ve ever owned.
+                  <br class="hide-dt" /><br />
+                  <b>— Wendy C., Verified Customer</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="as-seen-on">As Seen On:</div>
+        <div class="brands d-flex align-items-center">
+          <div class="brands-wrapper">
+            <div class="brands-trails">
+              <div class="brands-trail brands-trail-1">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-1.png"
+                  alt="USA Today"
+                  width="128"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-2.png"
+                  alt="CBS"
+                  width="65"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-3.png"
+                  alt="Men's Health"
+                  width="87"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-4.png"
+                  alt="Forbes"
+                  width="76"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-5.png"
+                  alt="FOX"
+                  width="43"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-6.png"
+                  alt="NBC"
+                  width="86"
+                  height="21"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-7.png"
+                  alt="Handyman"
+                  width="123"
+                  height="33"
+                  loading="lazy"
+                />
+              </div>
+              <div class="brands-trail brands-trail-2">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-1.png"
+                  alt="USA Today"
+                  width="128"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-2.png"
+                  alt="CBS"
+                  width="65"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-3.png"
+                  alt="Men's Health"
+                  width="87"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-4.png"
+                  alt="Forbes"
+                  width="76"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-5.png"
+                  alt="FOX"
+                  width="43"
+                  height="19"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-6.png"
+                  alt="NBC"
+                  width="86"
+                  height="21"
+                  loading="lazy"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/brand-7.png"
+                  alt="Handyman"
+                  width="123"
+                  height="33"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary">
+        <div class="summary-left">
+          <span class="summary-left-title">
+            <span class="summary-left-title-red">Small Tool. Big Jobs.</span><br />
+            Watch What The Power<br />
+            Blower Can Do.
+          </span>
+          <span class="summary-left-text">
+            Driveways, patios, garages, cars, workshops,<br />
+            even desks and computers. All cleared with one<br />
+            hand, and zero cords. See it for yourself.
+          </span>
+        </div>
+        <div class="summary-right">
+          <video autoplay muted loop playsinline poster="">
+            <source src="https://offer.woodrangertools.com/leafblower/video/new-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <div class="section-title">
+            <h2>
+              Powerful Performance Designed<br class="show-desktop" />
+              To Tame Nature
+            </h2>
+            <p>
+              While bulky gas blowers rely on clumsy fans, WOODRANGER<sup>®</sup> delivers<br
+                class="show-desktop"
+              />
+              powerful airflow through precision micro-engineering.
+            </p>
+          </div>
+          <div class="features-items d-flex flex-col">
+            <div class="feature">
+              <div class="feature-content">
+                <h3>High-Velocity Motor</h3>
+                <div class="feature-image">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-1.webp"
+                    alt=""
+                    width="1174"
+                    height="700"
+                    loading="lazy"
+                    class="show-mobile"
+                  />
+                </div>
+                <p>
+                  <b>The 1600W brushless motor spins at an incredible 55,000 RPM,</b>
+                  creating a highly concentrated blast of air. Easily powering through wet leaves,
+                  heavy grass clippings, and stubborn driveway debris.
+                </p>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                  alt="5 stars"
+                  loading="lazy"
+                  width="71"
+                  height="13"
+                  class="feature-5-stars"
+                />
+                <div class="feature-block">
+                  It’s like a little hurricane in your hand. I honestly don't know how they packed
+                  so much force into such a small tool. It shoots out a strong blast of air that
+                  rips through wet leaves and heavy grass clippings stuck to my driveway.<br
+                    class="hide-dt"
+                  />
+                  <b>— Greg M., Verified Customer</b>
+                </div>
+              </div>
+              <div class="feature-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-1.webp"
+                  alt=""
+                  width="1174"
+                  height="700"
+                  loading="lazy"
+                  class="show-desktop"
+                />
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-2.webp"
+                  alt=""
+                  width="1174"
+                  height="700"
+                  loading="lazy"
+                  class="show-desktop"
+                />
+              </div>
+              <div class="feature-content">
+                <h3>Multi-Speed Trigger</h3>
+                <div class="feature-image">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-2.webp"
+                    alt=""
+                    width="1174"
+                    height="700"
+                    loading="lazy"
+                    class="show-mobile"
+                  />
+                </div>
+                <p>
+                  Pressure-sensitive control lets you easily
+                  <b>switch from a soft breeze </b> for dusting delicate electronics
+                  <b>to a full-power</b>
+                  blast for driveway clearing.
+                </p>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                  alt="5 stars"
+                  loading="lazy"
+                  width="71"
+                  height="13"
+                  class="feature-5-stars"
+                />
+                <div class="feature-block">
+                  The best part about this blower is that you have total control over the power. A
+                  light squeeze dusts off my workbench without sending things flying, but a full
+                  pull blasts heavy debris right off the driveway. It makes it incredibly useful for
+                  any chore inside or outside the house.<br class="hide-dt" />
+                  <b>— Ryan C., Verified Customer</b>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature feature-gray">
+              <div class="feature-content">
+                <h3>Cordless Freedom</h3>
+                <div class="feature-image">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-3.webp"
+                    alt=""
+                    width="1023"
+                    height="700"
+                    loading="lazy"
+                    class="show-mobile"
+                  />
+                </div>
+                <p>
+                  <b>Say goodbye to tangled extension cords and toxic gas fumes. </b>
+                  The 24V lithium battery gives you the freedom to clean anywhere, instantly.
+                </p>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                  alt="5 stars"
+                  loading="lazy"
+                  width="71"
+                  height="13"
+                  class="feature-5-stars"
+                />
+                <div class="feature-block">
+                  Being able to grab this off the bench and quickly clear out the yard is perfect. I
+                  used to sweep by hand because dragging cords all the way out there was a hassle.
+                  Now I clean anywhere in the yard in minutes.<br class="hide-dt" />
+                  <b> — Derek P., Verified Customer</b>
+                </div>
+              </div>
+              <div class="feature-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-3.webp"
+                  alt=""
+                  width="1023"
+                  height="700"
+                  loading="lazy"
+                  class="show-desktop"
+                />
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-4.webp"
+                  alt=""
+                  width="1174"
+                  height="700"
+                  loading="lazy"
+                  class="show-desktop"
+                />
+              </div>
+              <div class="feature-content">
+                <h3>Quiet Operation</h3>
+                <div class="feature-image">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-4.webp"
+                    alt=""
+                    width="1174"
+                    height="700"
+                    loading="lazy"
+                    class="show-mobile"
+                  />
+                </div>
+                <p>
+                  Engineered to move massive amounts of air without the headache-inducing noise of
+                  gas motors.
+                  <b>Clean up early or late without bothering the neighbors.</b>
+                </p>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                  alt="5 stars"
+                  loading="lazy"
+                  width="71"
+                  height="13"
+                  class="feature-5-stars"
+                />
+                <div class="feature-block">
+                  You can actually talk over it. My wife came out to the driveway to ask me a
+                  question and we could actually have a normal conversation while I was still
+                  running it. Crazy quiet, but still packs a huge punch.<br class="hide-dt" />
+                  <b> — Mike K., Verified Customer</b>
+                </div>
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature-content">
+                <h3>Easy to Carry</h3>
+                <div class="feature-image">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-5.webp"
+                    alt=""
+                    width="1174"
+                    height="700"
+                    loading="lazy"
+                    class="show-mobile"
+                  />
+                </div>
+                <p>
+                  <b>Weighing just 2.1 lbs</b> with an <b>ergonomic anti-slip grip,</b> it’s built
+                  for comfortable, one-handed use so you can clean up without arm or back pain.
+                </p>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                  alt="5 stars"
+                  loading="lazy"
+                  width="71"
+                  height="13"
+                  class="feature-5-stars"
+                />
+                <div class="feature-block">
+                  Super easy to carry around the whole property. I use it to clear the garage floor
+                  and do the driveway. It’s light but feels like a quality tool in your hand.<br
+                    class="hide-dt"
+                  />
+                  <b>— Jason H., Verified Customer</b>
+                </div>
+              </div>
+              <div class="feature-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-5.webp"
+                  alt=""
+                  width="1174"
+                  height="700"
+                  loading="lazy"
+                  class="show-desktop"
+                />
+              </div>
+            </div>
+
+            <div class="feature">
+              <div class="feature-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-6.webp"
+                  alt=""
+                  width="1174"
+                  height="700"
+                  loading="lazy"
+                  class="show-desktop"
+                />
+              </div>
+              <div class="feature-content">
+                <h3>Ultra Fast Charging Battery</h3>
+                <div class="feature-image">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/tile-6.webp"
+                    alt=""
+                    width="1174"
+                    height="700"
+                    loading="lazy"
+                    class="show-mobile"
+                  />
+                </div>
+                <p>
+                  Get a full charge in under an hour. Just plug it in after a quick cleanup, and it
+                  will be fully primed and ready for your next job.
+                </p>
+
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                  alt="5 stars"
+                  loading="lazy"
+                  width="71"
+                  height="13"
+                  class="feature-5-stars"
+                />
+                <div class="feature-block">
+                  The battery life is surprisingly good for the size! I drained it doing the whole
+                  yard, plugged it in, and it was fully charged again before I finished eating
+                  lunch.<br class="hide-dt" />
+                  <b>— Allen J., Verified Customer</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="cta-wrapper">
+              <span class="ships-from-ohio">🇺🇸 Ships From Ohio, USA</span>
+              <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now & Save 50% Off</a>
+              <div class="cta-info">
+                <div class="cta-ship">Ship by <span class="cta-date"></span></div>
+                |
+                <div class="cta-stock">Stock Levels <span>LOW</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="attributes">
+        <div class="container">
+          <div class="section-title hide-mb">
+            <h2>
+              One Tool. Every Mess You've Been<br />
+              Putting Off.
+            </h2>
+          </div>
+          <div class="section-title hide-dt">
+            <h2>
+              One Tool. Every Mess<br />
+              You've Been Putting Off.
+            </h2>
+          </div>
+        </div>
+        <div class="attributes-items-wrapper">
+          <div class="attributes-items">
+            <div class="attribute-wrapper">
+              <div class="attribute">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/attributes-img-1.webp"
+                  alt=""
+                  width="286"
+                  height="267"
+                  loading="lazy"
+                />
+                <div class="attribute-texts">
+                  <h5>CAR PORT</h5>
+                  <p>
+                    Clean cobwebs and debris in the places you forget about. One charge does it all.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="attribute-wrapper">
+              <div class="attribute">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/attributes-img-2.webp"
+                  alt=""
+                  width="286"
+                  height="267"
+                  loading="lazy"
+                />
+                <div class="attribute-texts">
+                  <h5>DRIVEWAY</h5>
+                  <p>
+                    Grass clippings, fallen leaves, and dirt. Faster than a broom. Quieter than gas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="attribute-wrapper">
+              <div class="attribute">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/attributes-img-3.webp"
+                  alt=""
+                  width="286"
+                  height="267"
+                  loading="lazy"
+                />
+                <div class="attribute-texts">
+                  <h5>PATIO</h5>
+                  <p>
+                    Post-BBQ crumbs, pollen buildup, and morning dew leaves. Clean in under a
+                    minute.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="attribute-wrapper">
+              <div class="attribute">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/attributes-img-4.webp"
+                  alt=""
+                  width="286"
+                  height="267"
+                  loading="lazy"
+                />
+                <div class="attribute-texts">
+                  <h5>WORKSHOP</h5>
+                  <p>
+                    Sawdust, metal shavings, and leaves blown in from outside. Gone at the push of a
+                    button.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="attribute-wrapper">
+              <div class="attribute">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/attributes-img-5.webp"
+                  alt=""
+                  width="286"
+                  height="267"
+                  loading="lazy"
+                />
+                <div class="attribute-texts">
+                  <h5>HOME OFFICE</h5>
+                  <p>
+                    Computers, keyboards, and monitors. Even the most delicate areas are easy to
+                    clean with a light touch.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="attribute-wrapper">
+              <div class="attribute">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/attributes-img-6.webp"
+                  alt=""
+                  width="286"
+                  height="267"
+                  loading="lazy"
+                />
+                <div class="attribute-texts">
+                  <h5>CAR</h5>
+                  <p>
+                    Clean door jambs, floor mats, engine bay, and paint surfaces. The places a shop
+                    vac can’t reach.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner2">
+        <div class="container">
+          <div class="banner2-wrapper d-flex">
+            <div class="banner2-image">
+              <img
+                src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/banner2-image.webp"
+                alt="Doctor"
+                width="1158"
+                height="952"
+                loading="lazy"
+                class="show-desktop"
+              />
+            </div>
+            <div class="banner2-content d-flex align-items-center justify-content-center">
+              <div class="banner2-content-inner">
+                <h3>Engineered for Excellence. Built for You.</h3>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/banner2-image.webp"
+                  alt="Doctor"
+                  width="1158"
+                  height="952"
+                  loading="lazy"
+                  class="show-mobile"
+                />
+                <p>
+                  True innovation happens when cutting-edge technology meets uncompromising quality.
+                  Every WOODRANGER<sup>®</sup> product is the result of rigorous engineering, precise
+                  manufacturing, and strict quality control. We combine pro-level power with
+                  intuitive design so you can trust our tools to perform flawlessly, day after day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="" id="comparison">
+        <div class="container">
+          <div class="section-title">
+            <h2>
+              Why Traditional Blowers Are a Thing<br class="show-desktop" />
+              of the Past
+            </h2>
+            <p>
+              Bulky, noisy blowers are hard to use and maintain, while WOODRANGER<sup>®</sup> is light, quiet,
+              and ready for any space.
+            </p>
+          </div>
+          <div class="comparison-body">
+            <div class="comparison-col">
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/comparison-img1.webp" alt="" />
+              <p class="comparison-col-woodranger-title">WOODRANGER<sup>®</sup> Power Blower</p>
+              <ul class="comparison-col-woodranger-ul">
+                <li>Lightweight one hand operation</li>
+                <li>Quiet enough for morning jobs</li>
+                <li>Grab & Go cordless lithium power</li>
+                <li>Indoors, outdoors, lawn, car, computers</li>
+                <li>Zero maintenance</li>
+              </ul>
+            </div>
+            <div class="comparison-col vs-container">
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/vs.png" alt="" />
+              <div class="vs-divider show-desktop"></div>
+            </div>
+            <div class="comparison-col">
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/comparison-img2.webp" alt="" />
+              <p class="comparison-col-traditional-title">Traditional Blowers</p>
+              <ul class="comparison-col-traditional-ul">
+                <li>10+ lbs of awkward, hard to handle weight</li>
+                <li>Deafening noise disrupting neighborhood</li>
+                <li>Tangled in cords or choke on gas fumes</li>
+                <li>Only works on outdoor leaves & grass</li>
+                <li>Zero Complex maintenance: Oil changes, tune-ups</li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="cta-wrapper">
+              <span class="ships-from-ohio">🇺🇸 Ships From Ohio, USA</span>
+              <a class="button cta-button" href="https://track.healthdeepinsight.com/click">Order Now & Save 50% Off</a>
+              <div class="cta-info">
+                <div class="cta-ship">Ship by <span class="cta-date">May 8th</span></div>
+                |
+                <div class="cta-stock">Stock Levels <span>LOW</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="specs" id="specs">
+        <div class="container">
+          <div class="section-title">
+            <h2>
+              Power, Speed, and Performance <br class="show-desktop" />
+              You Can Count On
+            </h2>
+          </div>
+          <div class="specs-body">
+            <div class="specs-left">
+              <div class="specs-left-title">Whats in the Box:</div>
+              <div class="specs-left-container">
+                <div class="specs-left-img">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/specs-image.webp"
+                    alt=""
+                    loading="lazy"
+                    width="207"
+                  />
+                </div>
+                <div class="specs-left-text">
+                  1x Power Blower,<br class="show-mobile" />
+                  1x Battery,<br />
+                  1x Charging Cable
+                </div>
+              </div>
+            </div>
+            <div class="specs-divider show-desktop"></div>
+            <div class="specs-right">
+              <div class="specs-right-title">Specs:</div>
+              <ul class="specs-right-list">
+                <li>
+                  <span>Material:</span>
+                  <span style="text-align: end"><b>Durable ABS plastic construction</b></span>
+                </li>
+                <li>
+                  <span>Power Output:</span> <span><b>1600W</b></span>
+                </li>
+                <li>
+                  <span>Motor Speed:</span> <span><b>up to 55,000 RPM</b></span>
+                </li>
+                <li>
+                  <span>Runtime:</span> <span><b>30-minutes</b></span>
+                </li>
+                <li class="specs-list-last-item">
+                  <span
+                    >enough for a full driveway,<br />
+                    patio, or garage in one session</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="specs-banner">
+            <div class="specs-badge">
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/90-day.png" alt="" width="99" />
+            </div>
+            <div class="specs-banner-text">
+              <div class="specs-banner-title">Buy with Confidence - It’s 100% Risk-Free!</div>
+              <div class="specs-banner-description">
+                Try the WOODRANGER<sup>®</sup> Power Blower in your home for 90 days. If you<br
+                  class="show-desktop"
+                />
+                aren't completely blown away by the power and convenience, we'll<br
+                  class="show-desktop"
+                />
+                refund every penny. No questions asked.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <div class="section-title">
+            <h2>Hear What Customers Are Raving About!</h2>
+          </div>
+          <div class="reviews-header d-flex">
+            <div class="reviews-stats d-flex flex-col">
+              <div class="review-stat">
+                <span>Power & Airflow</span>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/stars-full.png"
+                  alt="4.9 Stars"
+                  width="168"
+                  loading="lazy"
+                />
+                <div>5.0</div>
+              </div>
+              <div class="review-stat">
+                <span>Battery Life</span>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/stars-not-full.png"
+                  alt="4.8 Stars"
+                  width="168"
+                  loading="lazy"
+                />
+                <div>4.8</div>
+              </div>
+              <div class="review-stat">
+                <span>Ease of Use</span>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/stars-full.png"
+                  alt="4.7 Stars"
+                  width="168"
+                  loading="lazy"
+                />
+                <div>4.9</div>
+              </div>
+              <div class="review-stat">
+                <span>Durability</span>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/stars-not-full.png"
+                  alt="4.9 Stars"
+                  width="168"
+                  loading="lazy"
+                />
+                <div>4.8</div>
+              </div>
+              <div class="review-stat">
+                <span>Value for Money</span>
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/stars-full.png"
+                  alt="4.9 Stars"
+                  width="168"
+                  loading="lazy"
+                />
+                <div>4.9</div>
+              </div>
+            </div>
+            <div class="reviews-overall d-flex flex-col">
+              <h2>4.8</h2>
+              <img
+                src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/stars-full.png"
+                alt="4.8 Stars"
+                width="168"
+                loading="lazy"
+              />
+              <p>
+                Based on reviews from<br />
+                27,517+ customers
+              </p>
+            </div>
+            <div class="reviews-photos">
+              <img
+                src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/reviews-photos.webp"
+                alt="Review Photos"
+                width="409"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="reviews-items">
+            <div class="review">
+              <div class="review-image">
+                <picture>
+                  <source media="(max-width: 480px)" srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-1-dt.webp" />
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-1-dt.webp"
+                    alt="Review 1"
+                    width="270"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-1.webp"
+                    alt="Daniel W."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Daniel W.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Today</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">Works great with one hand</div>
+                  <p>
+                    I've got a bad shoulder so I was skeptical. But I can run this thing one-handed
+                    and it still blows my whole driveway clean. Way better than the corded one I had
+                    before.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <picture>
+                  <source media="(max-width: 480px)" srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-2-dt.webp" />
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-2-dt.webp"
+                    alt="Review 2"
+                    width="270"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-2.webp"
+                    alt="Karen M."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Karen M.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Yesterday</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">Patio is clean in under a minute</div>
+                  <p>
+                    I don't even think about it anymore. Patio gets dusty, I grab this, it's done.
+                    Couldn't tell you the last time it took me more than a minute.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <picture>
+                  <source media="(max-width: 480px)" srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-3-dt.webp" />
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-3-dt.webp"
+                    alt="Review 3"
+                    width="270"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-3.webp"
+                    alt="James R."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>James R.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Today</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">Quiet enough for early mornings</div>
+                  <p>
+                    My neighbors are pretty uptight about noise. This thing is quiet enough that I
+                    can do my walkway first thing in the morning and nobody says a word. That alone
+                    was worth it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <picture>
+                  <source media="(max-width: 480px)" srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-4-dt.webp" />
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-4-dt.webp"
+                    alt="Review 4"
+                    width="270"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-4.webp"
+                    alt="Melissa K."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Melissa K.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Yesterday</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">
+                    Way more powerful<br />
+                    than it looks
+                  </div>
+                  <p>
+                    It's compact so I figured the airflow would be weak. Nope. Clears my garage no
+                    problem and I've used it on the patio furniture too. Surprised me.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <picture>
+                  <source media="(max-width: 480px)" srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-5-dt.webp" />
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-5-dt.webp"
+                    alt="Review 5"
+                    width="270"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-5.webp"
+                    alt="Sophie D."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Sophie D.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Today</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">Use it inside the car too</div>
+                  <p>
+                    Started using it on my carport then realized it works great inside the car too.
+                    Got into all the little vents and cup holders. Didn't expect that.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <source media="(max-width: 480px)" srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-6-dt.webp" />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-6-dt.webp"
+                  alt="Review 6"
+                  width="270"
+                  loading="lazy"
+                />
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-6.webp"
+                    alt="Linda P."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Linda P.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Yesterday</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">Easy to handle even for me</div>
+                  <p>
+                    I was worried it'd be too heavy or awkward but it's really light. I did my whole
+                    front path by myself, no help. First time I've actually enjoyed doing that.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <picture>
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-7.webp"
+                    alt="Review 7"
+                    width="270"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-7.webp"
+                    alt="Robert J."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Robert J.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Today</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">Use it almost every day</div>
+                  <p>
+                    Honestly didn't think I'd use it that much but it's just so easy to pick up and
+                    go. Took maybe 3 minutes to do my whole back patio. My old blower would've taken
+                    way longer just to set up.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-image">
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-8.webp"
+                  alt="Review 8"
+                  width="270"
+                  loading="lazy"
+                />
+              </div>
+              <div class="review-content">
+                <div class="review-author">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/review-author-8.webp"
+                    alt="Steve L."
+                    width="45"
+                    height="45"
+                    loading="lazy"
+                  />
+                  <span>Steve L.</span>
+                  <span class="review-verified">Verified</span>
+                </div>
+                <div class="review-posted">
+                  <img
+                    src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png"
+                    alt="5 Stars"
+                    width="83"
+                    height="16px"
+                    loading="lazy"
+                  />
+                  <span>Posted Last Week</span>
+                </div>
+                <div class="review-text">
+                  <div class="review-title">No more extension cords</div>
+                  <p>
+                    That extension cord was the worst part of the old blower. Always tangling, never
+                    long enough. Now I just grab this off the shelf, walk around the yard, put it
+                    back. That's it.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sub-hero banner">
+        <div class="container">
+          <div class="hero-wrapper d-flex">
+            <div class="banner-rating d-flex align-items-center hide-dt">
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png" alt="5 Stars" loading="lazy" width="82" />
+              <span>27,517+ 5-Star Reviews</span>
+            </div>
+            <h1 class="hide-dt">
+              Don't Miss Out On<br />
+              This Limited-Time<br />
+              Offer. <span style="color: #db011c">Order Now</span>
+            </h1>
+            <div class="banner-asset d-flex">
+              <picture>
+                <source
+                  media="(max-width: 600px)"
+                  srcset="https://offer.woodrangertools.com/leafblower/images/landing-cvt/banner-labels-mb.webp"
+                />
+                <img
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/banner-labels-dt.webp"
+                  alt="90 Days Guarantee"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <div class="banner-content d-flex flex-col">
+              <div class="banner-rating d-flex align-items-center hide-mb">
+                <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png" alt="5 Stars" loading="lazy" width="82" />
+                <span>27,517+ 5-Star Reviews</span>
+              </div>
+              <h1 class="hide-mb">
+                Don't Miss Out On <br />
+                This Limited-Time<br />
+                Offer. <span style="color: #db011c">Order Now</span>
+              </h1>
+              <ul class="sub-hero-benefits">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="19"
+                    viewBox="0 0 19 19"
+                    fill="none"
+                  >
+                    <path
+                      d="M9.97561 0.0108589C4.34273 -0.254054 -0.274456 4.36342 0.0127102 9.99658C0.25605 14.834 4.1658 18.7441 9.003 18.9873C14.6359 19.2747 19.2747 14.6357 18.9873 9.00249C18.7224 4.18647 14.813 0.276612 9.97561 0.0108589ZM7.89867 14.1938L3.81207 10.107L5.22546 8.69357L7.89876 11.367L13.7525 5.51294L15.1659 6.9264L7.89867 14.1938Z"
+                      fill="#DB011C"
+                    />
+                  </svg>
+                  <span>Fast 2-3 day shipping from our US Warehouse</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="19"
+                    viewBox="0 0 19 19"
+                    fill="none"
+                  >
+                    <path
+                      d="M9.97561 0.0108589C4.34273 -0.254054 -0.274456 4.36342 0.0127102 9.99658C0.25605 14.834 4.1658 18.7441 9.003 18.9873C14.6359 19.2747 19.2747 14.6357 18.9873 9.00249C18.7224 4.18647 14.813 0.276612 9.97561 0.0108589ZM7.89867 14.1938L3.81207 10.107L5.22546 8.69357L7.89876 11.367L13.7525 5.51294L15.1659 6.9264L7.89867 14.1938Z"
+                      fill="#DB011C"
+                    />
+                  </svg>
+                  <span>90 Day Back Guarantee</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19"
+                    height="19"
+                    viewBox="0 0 19 19"
+                    fill="none"
+                  >
+                    <path
+                      d="M9.97561 0.0108589C4.34273 -0.254054 -0.274456 4.36342 0.0127102 9.99658C0.25605 14.834 4.1658 18.7441 9.003 18.9873C14.6359 19.2747 19.2747 14.6357 18.9873 9.00249C18.7224 4.18647 14.813 0.276612 9.97561 0.0108589ZM7.89867 14.1938L3.81207 10.107L5.22546 8.69357L7.89876 11.367L13.7525 5.51294L15.1659 6.9264L7.89867 14.1938Z"
+                      fill="#DB011C"
+                    />
+                  </svg>
+                  <span>Top-Notch Support Team</span>
+                </li>
+              </ul>
+              <div class="cta-wrapper">
+                <span class="ships-from-ohio">🇺🇸 Ships From Ohio, USA</span>
+                <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now & Save 50% Off</a>
+                <div class="cta-info">
+                  <div class="cta-ship">Ship by <span class="cta-date"></span></div>
+                  |
+                  <div class="cta-stock">Stock Levels <span>LOW</span></div>
+                </div>
+              </div>
+              <div class="hero-review d-flex">
+                <img
+                  class="hero-review-avatar"
+                  src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/sub-hero-author.webp"
+                  alt="Jess L."
+                  width="49"
+                  height="49"
+                  loading="lazy"
+                />
+                <div class="hero-review-text">
+                  <p>
+                    Keep it by the back door for the dogs. Clears the patio and does a quick sweep
+                    of the entryway. Way faster than dragging out the vacuum every time.<br />
+                    <b>— Jess L., Verified Customer</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="faq-items d-flex flex-col">
+            <div class="faq-item open">
+              <div class="faq-question">What types of tasks can this leaf blower handle?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  It is designed for more than just leaves. Use it to clear dust, dirt, and debris
+                  from patios, driveways, garages, and yards. It’s also great for indoor tasks like
+                  cleaning workspaces, keyboards, and hard-to-reach corners.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">Can I adjust the blowing speed?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  Yes. It uses a pressure-sensitive trigger. The harder you press, the stronger the
+                  airflow. This allows switching between light dusting and heavy-duty clearing.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">How long does the battery last on a single charge?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  It delivers about 30 minutes of runtime, which is enough to clear patios,
+                  driveways, and garages before recharging.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">Is it heavy or hard to use?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  No. It’s lightweight, well-balanced, and designed for easy one-hand operation.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">Does it require a lot of maintenance?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  No. There’s no oil, gas, or tune-ups needed. Just recharge the battery.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">Where do WOODRANGER<sup>®</sup> products ship from?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  They are stored and shipped from a warehouse in Ohio, USA.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">How can I track my WOODRANGER<sup>®</sup> order?</div>
+              <div class="faq-answer-wrapper">
+                <div class="faq-answer">
+                  You’ll receive a confirmation email with a tracking number and tracking link once
+                  your order ships.
+                </div>
+              </div>
+              <span class="faq-opener"></span>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="cta-wrapper">
+              <span class="ships-from-ohio">🇺🇸 Ships From Ohio, USA</span>
+              <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now & Save 50% Off</a>
+              <div class="cta-info">
+                <div class="cta-ship">Ship by <span class="cta-date"></span></div>
+                |
+                <div class="cta-stock">Stock Levels <span>LOW</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="fixed-cta d-flex hide-dt">
+        <div class="cta-wrapper">
+          <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now & Save 50% Off</a>
+          <div class="cta-info">
+            <div class="cta-ship">Ship by <span class="cta-date"></span></div>
+            |
+            <div class="cta-stock">Stock Levels <span>LOW</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-cta-dt hide-mb">
+        <div class="container fixed-cta-dt-inner d-flex align-items-center">
+          <img
+            src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/desktop-banner.webp"
+            alt="WOODRANGER® Power Blower"
+            class="fixed-cta-dt-img"
+          />
+          <div class="fixed-cta-dt-text d-flex flex-col">
+            <div class="fixed-cta-dt-rating d-flex align-items-center">
+              <img src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/5-stars.png" alt="5 Stars" width="81" />
+              <span>27,517+ 5-Star Reviews</span>
+            </div>
+            <strong>Easiest Cleanup Guaranteed</strong>
+          </div>
+          <div class="cta-wrapper">
+            <a href="https://track.healthdeepinsight.com/click" class="button cta-button">Order Now & Save 50% Off</a>
+            <div class="cta-info">
+              <div class="cta-ship">Ship by <span class="cta-date"></span></div>
+              |
+              <div class="cta-stock">Stock Levels <span>LOW</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content d-flex flex-col align-items-center text-center">
+          <a href="https://woodrangertools.com/" target="_blank">
+            <img
+              class="footer-logo"
+              src="https://offer.woodrangertools.com/leafblower/images/landing-cvt/logo-main.webp"
+              alt="Logo White"
+              width="204"
+              height="21"
+              loading="lazy"
+            />
+          </a>
+          <ul class="d-flex">
+            <li>
+              <a href="https://woodrangertools.com/terms/" target="_blank">Terms of Use</a>
+            </li>
+            <li>
+              <a href="https://woodrangertools.com/privacy/" target="_blank">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="https://woodrangertools.com/contact/" target="_blank">Contact Us</a>
+            </li>
+          </ul>
+          <p class="disclaimer">
+            Our products may be promoted by independent third-party affiliates and marketing
+            partners. These partners operate their own websites, advertisements, and promotional
+            materials, which are not created, reviewed, controlled, or endorsed by Quantum Cart
+            LLC. Any claims, representations, pricing, offers, or statements appearing on
+            third-party websites or advertisements are solely those of that third party and do not
+            reflect the representations of Quantum Cart LLC. Only information published directly
+            on woodrangertools.com constitutes the official representations of Quantum Cart LLC.
+            If you encounter a third-party claim that appears inaccurate, contact us at
+            <a href="mailto:support@woodrangertools.com">support@woodrangertools.com</a>.
+          </p>
+          <p class="disclaimer">
+            Some product photos and other images on this site may be generated using AI. We aim to
+            depict our products accurately and review AI-assisted imagery before publishing.
+            Independent third-party affiliates and marketing partners may also use generative AI in
+            their own content, which we do not control.
+          </p>
+          <span
+            >Copyright © <span class="current-year">2026</span> WOODRANGER<sup>®</sup>. All
+            <br class="hide-dt" />
+            Rights Reserved.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://offer.woodrangertools.com/leafblower/js/promo-banner.js"></script>
+
+    <script>
+/* ==========================================================================
+ * WOODRANGER Power Leaf Blower — 页面主逻辑(Funnelish 适配版)
+ *
+ * 相对原站 inline 脚本的改动(其余行为 1:1 保留):
+ *   1. onReady / onLoad 助手:Funnelish 若在页面 load 之后才渲染模块,
+ *      window "load" 监听器永远不会触发 —— 改为"已加载则立即执行"。
+ *   2. tiny-slider.js 改从原站绝对 URL 动态加载。
+ *   3. 删除"CTA 链接指向 checkout.html"的代码 —— 标记里已直接写
+ *      href="https://track.healthdeepinsight.com/click"(Funnelish 原生下一步跳转,自带会话/归因追踪)。
+ *   4. 移动端菜单、FAQ、页内锚点(#features 等)全部改为 document 级事件委托,
+ *      Funnelish 重渲染模块 DOM 后依然有效;页内锚点在捕获阶段接管,
+ *      防止宿主拦截;#next-step / #yes-link-* 链接完全不碰,交给 Funnelish。
+ * ========================================================================== */
+
+(function () {
+  'use strict';
+
+  /* ---- 助手:Funnelish 环境下安全的事件时机 ---- */
+  function onReady(fn) {
+    if (document.readyState !== 'loading') fn();
+    else document.addEventListener('DOMContentLoaded', fn);
+  }
+  function onLoad(fn) {
+    if (document.readyState === 'complete') fn();
+    else window.addEventListener('load', fn);
+  }
+  function scheduleWithRaf(fn) {
+    var isScheduled = false;
+    return function () {
+      if (isScheduled) return;
+      isScheduled = true;
+      requestAnimationFrame(function () {
+        isScheduled = false;
+        fn();
+      });
+    };
+  }
+
+  /* ===================== 移动端菜单(事件委托) ===================== */
+  function closeMenu() {
+    var t = document.querySelector('.menu-toggle');
+    var m = document.querySelector('.menu');
+    if (t) t.classList.remove('open');
+    if (m) m.classList.remove('open');
+  }
+
+  document.addEventListener('click', function (e) {
+    var toggle = e.target.closest && e.target.closest('.menu-toggle');
+    if (toggle) {
+      e.stopPropagation(); // 阻止本监听器下方的 document 关闭逻辑
+      toggle.classList.toggle('open');
+      var m = document.querySelector('.menu');
+      if (m) m.classList.toggle('open');
+      return;
+    }
+    closeMenu(); // 点击页面其它任意处关闭菜单(原站行为)
+  }, true);
+
+  /* ===================== 页内锚点导航(捕获阶段接管) =====================
+   * 只处理 #features / #comparison / #reviews 这类页内锚点;
+   * #next-step 与 #yes-link-*(Funnelish 跳转)原样放行。 */
+  var scrollCorrectionTimer = null;
+
+  function getHeader() {
+    return document.querySelector('header');
+  }
+  function getTargetY(target) {
+    var header = getHeader();
+    var headerHeight = header ? header.offsetHeight : 0;
+    return Math.max(0, target.getBoundingClientRect().top + window.pageYOffset - headerHeight);
+  }
+  function eagerLoadImagesAbove(target) {
+    var targetTop = target.getBoundingClientRect().top + window.pageYOffset;
+    document.querySelectorAll('img[loading="lazy"]').forEach(function (img) {
+      var imgTop = img.getBoundingClientRect().top + window.pageYOffset;
+      if (imgTop < targetTop + window.innerHeight) img.loading = 'eager';
+    });
+  }
+  function scrollToTarget(target) {
+    // 先强制加载目标上方的懒加载图片,避免滚动途中页面变长导致落点偏移
+    eagerLoadImagesAbove(target);
+    if (scrollCorrectionTimer) {
+      clearTimeout(scrollCorrectionTimer);
+      scrollCorrectionTimer = null;
+    }
+    window.scrollTo({ top: getTargetY(target), behavior: 'smooth' });
+
+    // 用户手动滚动(wheel / 触摸 / 按键)时立即停止落点校准,绝不和用户抢滚动条
+    var userScrolled = false;
+    var onUserScroll = function () { userScrolled = true; };
+    window.addEventListener('wheel', onUserScroll, { passive: true });
+    window.addEventListener('touchmove', onUserScroll, { passive: true });
+    window.addEventListener('keydown', onUserScroll);
+    var detach = function () {
+      window.removeEventListener('wheel', onUserScroll);
+      window.removeEventListener('touchmove', onUserScroll);
+      window.removeEventListener('keydown', onUserScroll);
+    };
+
+    // 平滑滚动结束后校准落点(懒图/字体/滑块都可能让目标移动)
+    var attempts = 0;
+    var maxAttempts = 24;
+    var tick = function () {
+      if (userScrolled) {
+        detach();
+        scrollCorrectionTimer = null;
+        return;
+      }
+      attempts++;
+      var desired = getTargetY(target);
+      var current = window.pageYOffset;
+      if (Math.abs(desired - current) > 2) {
+        window.scrollTo({ top: desired, behavior: 'smooth' });
+      }
+      if (attempts < maxAttempts) {
+        scrollCorrectionTimer = setTimeout(tick, 250);
+      } else {
+        detach();
+        scrollCorrectionTimer = null;
+      }
+    };
+    scrollCorrectionTimer = setTimeout(tick, 250);
+  }
+
+  document.addEventListener('click', function (e) {
+    var anchor = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!anchor) return;
+    var id = anchor.getAttribute('href');
+    if (!id || id === '#' || id === '#next-step' || id.indexOf('#yes-link-') === 0) return; // Funnelish 链接不碰
+    var target = document.querySelector(id);
+    if (!target) return;
+    e.preventDefault();
+    e.stopPropagation();
+    closeMenu();
+    scrollToTarget(target); // 立即滚动 —— 不等滑块加载(tiny-slider 被拦截/加载失败时点击仍有效)
+  }, true);
+
+  /* ===================== 菜单滚动高亮(scrollspy) ===================== */
+  function initMenuSpy() {
+    var menuItems = document.querySelectorAll('.menu li');
+    var sections = [].map.call(menuItems, function (li) {
+      return document.querySelector(li.querySelector('a').getAttribute('href'));
+    });
+
+    function onScroll() {
+      var header = getHeader();
+      var referenceY = (header ? header.offsetHeight : 0) + 24;
+      var activeIndex = -1;
+
+      sections.forEach(function (section, index) {
+        if (!section) return;
+        var rect = section.getBoundingClientRect();
+        if (referenceY >= rect.top && referenceY < rect.bottom) {
+          activeIndex = index;
+        }
+      });
+
+      menuItems.forEach(function (li) {
+        li.classList.remove('active');
+      });
+      if (activeIndex >= 0) menuItems[activeIndex].classList.add('active');
+    }
+
+    var handleMenuScroll = scheduleWithRaf(onScroll);
+    window.addEventListener('scroll', handleMenuScroll, { passive: true });
+    onScroll();
+  }
+
+  /* ===================== tiny-slider 滑块初始化 ===================== */
+  function initializeSliders() {
+    tns({
+      container: '#hero-main-slider',
+      items: 1,
+      navContainer: '#hero-thumb-nav',
+      navAsThumbnails: true,
+      prevButton: '.hero-slider-prev',
+      nextButton: '.hero-slider-next',
+      mouseDrag: true,
+      speed: 400,
+      autoplay: false,
+      controls: true,
+    });
+
+    // 把 prev/next 移进 .tns-outer,让按钮相对真实滑块高度定位
+    var sliderOuter = document.querySelector('#hero-main-slider').parentElement.parentElement;
+    sliderOuter.style.position = 'relative';
+    var prevBtn = document.querySelector('.hero-slider-prev');
+    var nextBtn = document.querySelector('.hero-slider-next');
+    sliderOuter.appendChild(prevBtn);
+    sliderOuter.appendChild(nextBtn);
+    prevBtn.style.visibility = 'visible';
+    nextBtn.style.visibility = 'visible';
+
+    tns({
+      container: '.attributes-items',
+      items: 1,
+      center: false,
+      loop: true,
+      edgePadding: 40,
+      autoplayTimeout: 4000,
+      speed: 670,
+      nav: false,
+      swipeAngle: 25,
+      autoplay: true,
+      mouseDrag: true,
+      autoplayButtonOutput: false,
+      controls: false,
+      preventScrollOnTouch: 'force',
+      responsive: {
+        768: { items: 3, edgePadding: 0 },
+        992: { items: 4, edgePadding: 0 },
+      },
+    });
+
+    if (document.querySelector('.steps-items')) {
+      tns({
+        container: '.steps-items',
+        items: 2,
+        center: true,
+        autoplayTimeout: 4000,
+        speed: 670,
+        nav: false,
+        swipeAngle: 25,
+        autoplay: true,
+        mouseDrag: true,
+        autoplayButtonOutput: false,
+        controls: false,
+        preventScrollOnTouch: 'force',
+        responsive: {
+          641: { disable: true },
+        },
+      });
+    }
+  }
+
+  function loadTinySlider() {
+    var script = document.createElement('script');
+    script.src = 'https://offer.woodrangertools.com/leafblower/js/tiny-slider.js';
+    script.onload = function () {
+      initializeSliders();
+    };
+    document.body.appendChild(script);
+  }
+  onLoad(loadTinySlider);
+
+  /* ===================== CTA 发货日期(明天 + 序数后缀) ===================== */
+  function getDate(days) {
+    var monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var getOrdinal = function (n) {
+      var s = ['th', 'st', 'nd', 'rd'];
+      var v = n % 100;
+      return n + (s[(v - 20) % 10] || s[v] || s[0]);
+    };
+    var now = new Date();
+    now.setDate(now.getDate() + days);
+    return monthNames[now.getMonth()] + ' ' + getOrdinal(now.getDate());
+  }
+  document.querySelectorAll('.cta-date').forEach(function (el) {
+    el.textContent = getDate(1);
+  });
+
+  /* ===================== FAQ 手风琴(事件委托) ===================== */
+  function openFaq(item) {
+    var wrapper = item.querySelector('.faq-answer-wrapper');
+    var answer = item.querySelector('.faq-answer');
+    wrapper.style.height = answer.scrollHeight + 'px';
+    item.classList.add('open');
+  }
+  function closeFaq(item) {
+    var wrapper = item.querySelector('.faq-answer-wrapper');
+    wrapper.style.removeProperty('height');
+    item.classList.remove('open');
+  }
+
+  document.addEventListener('click', function (e) {
+    var item = e.target.closest && e.target.closest('.faq-item');
+    if (!item) return;
+    var wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(closeFaq);
+    if (!wasOpen) openFaq(item);
+  });
+
+  onLoad(function () {
+    var first = document.querySelector('.faq-item');
+    if (first) openFaq(first); // 首个 FAQ 默认展开
+  });
+
+  // 窗口尺寸变化时重算展开项高度
+  function debounce(fn, delay) {
+    var timer;
+    return function () {
+      clearTimeout(timer);
+      timer = setTimeout(fn, delay || 50);
+    };
+  }
+  window.addEventListener('resize', debounce(function () {
+    var openItem = document.querySelector('.faq-item.open');
+    if (!openItem) return;
+    var wrapper = openItem.querySelector('.faq-answer-wrapper');
+    var answer = openItem.querySelector('.faq-answer');
+    wrapper.style.height = answer.scrollHeight + 'px';
+  }));
+
+  /* ===================== Safari bfcache:恢复时重播视频 ===================== */
+  window.addEventListener('pageshow', function (e) {
+    if (e.persisted) {
+      document.querySelectorAll('video').forEach(function (v) {
+        v.play();
+      });
+    }
+  });
+
+  /* ===================== 视频进入视口才自动播放 ===================== */
+  onReady(function () {
+    var lazyVideos = document.querySelectorAll('.steps-items video, .sub-hero .hero-video');
+    if (!lazyVideos.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      lazyVideos.forEach(function (v) {
+        v.play();
+      });
+      return;
+    }
+
+    var videoObserver = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) entry.target.play();
+          else entry.target.pause();
+        });
+      },
+      { threshold: 0.25 }
+    );
+    lazyVideos.forEach(function (v) {
+      videoObserver.observe(v);
+    });
+  });
+
+  /* ===================== 固定 CTA 显示/隐藏逻辑 ===================== */
+  var fixedCta = document.querySelector('.fixed-cta');
+  var fixedCtaDt = document.querySelector('.fixed-cta-dt');
+  var features = document.querySelector('#features');
+  var pageFooter = document.querySelector('footer');
+  var otherCtas = [];
+
+  function cacheOtherCtas() {
+    var headerEl = getHeader();
+    otherCtas = [].filter.call(document.querySelectorAll('.cta-button'), function (cta) {
+      return (
+        !(fixedCta && fixedCta.contains(cta)) &&
+        !(fixedCtaDt && fixedCtaDt.contains(cta)) &&
+        !(headerEl && headerEl.contains(cta))
+      );
+    });
+  }
+
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom > 0;
+  }
+
+  function updateFixedCta() {
+    var hide = false;
+
+    // 1. 还没滚到 #features 之前隐藏
+    if (features) {
+      var featuresRect = features.getBoundingClientRect();
+      if (featuresRect.top > 0) hide = true;
+    }
+
+    // 2. 页面里其它 CTA 可见时隐藏(避免重复)
+    otherCtas.forEach(function (cta) {
+      if (isElementInViewport(cta)) hide = true;
+    });
+
+    // 3. footer 可见时隐藏
+    if (pageFooter && isElementInViewport(pageFooter)) hide = true;
+
+    if (fixedCta) fixedCta.classList.toggle('hidden', hide);
+    if (fixedCtaDt) fixedCtaDt.classList.toggle('hidden', hide);
+  }
+
+  var runFixedCtaUpdate = scheduleWithRaf(updateFixedCta);
+  window.addEventListener('scroll', runFixedCtaUpdate, { passive: true });
+  window.addEventListener('resize', runFixedCtaUpdate);
+  onReady(function () {
+    cacheOtherCtas();
+    updateFixedCta();
+  });
+
+  /* ===================== ?seen=n 移除 "As Seen On" 品牌墙 ===================== */
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('seen') === 'n') {
+    document.querySelectorAll('.as-seen-on, .brands').forEach(function (el) {
+      el.remove();
+    });
+  }
+
+  /* ===================== 页脚年份 ===================== */
+  document.querySelectorAll('.current-year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+
+  onReady(initMenuSpy);
+})();
+</script>
+    
+
+<script>
+/* 顶部促销条:去掉 "USE PROMO CODE:" 文本和优惠码胶囊。
+ * promo-banner 是 Shadow DOM 组件,外层 CSS 无法穿透,只能在渲染后用 JS 移除
+ * (.text-normal = "USE PROMO CODE:",.code = 优惠码胶囊,如 POWER26)。 */
+(function () {
+  function stripPromoCode(root) {
+    if (!root || !root.querySelectorAll) return false;
+    var els = root.querySelectorAll('.text-normal, .code');
+    if (!els.length) return false;
+    els.forEach(function (el) { el.remove(); });
+    return true;
+  }
+  function tryPatch() {
+    var pb = document.querySelector('promo-banner');
+    return !!(pb && pb.shadowRoot && stripPromoCode(pb.shadowRoot));
+  }
+  if (!tryPatch()) {
+    var n = 0;
+    var timer = setInterval(function () {
+      if (tryPatch() || ++n > 40) clearInterval(timer);
+    }, 250);
+  }
+})();
+</script>
+</body>
+</html>
